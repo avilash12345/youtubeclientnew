@@ -15,7 +15,7 @@ const Audio = () => {
     setIsloading(true)
     try {
            // Send POST request to FastAPI backend
-  const response = await axios.post('http://127.0.0.1:8000/audio/', {
+  const response = await axios.post('https://youtube-downloaderapi-main-kpcnw3mao-avilash12345s-projects.vercel.app/audio/', {
     url: url
   });
         // Handle successful response
