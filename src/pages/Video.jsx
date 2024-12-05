@@ -13,7 +13,7 @@ const Video = () => {
     setIsloading(true)
     try {
       // Send POST request to FastAPI backend
-      const response = await axios.post("http://127.0.0.1:8000/video/", {
+      const response = await axios.post("https://youtube-downloaderapi-main-kpcnw3mao-avilash12345s-projects.vercel.app/video/", {
         url: url,
       });
       //console.log(response.data);
